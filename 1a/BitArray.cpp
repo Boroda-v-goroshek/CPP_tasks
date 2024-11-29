@@ -325,6 +325,23 @@ bool BitArray::empty() const {
     return this->len == 0;
 }
 
+int BitArray::count() const{
+    int count = 0;
+    int n = std::ceil(this->len / 8.0);
+    int cur_len;
+
+    for (int i = 0; i < n; i++){
+        if (i != n - 1){cur_len = 8;}
+        else {cur_len = this->len % 8;}
+
+        for (int j = 0; j < cur_len; i++){
+            if (this->bit_array[i] & (1 << j) != 0) {
+                count++;
+            }
+        }
+    }
+    return count;
+}
 
 std::string BitArray::to_string() const {
     std::string str(this->len, '0');
