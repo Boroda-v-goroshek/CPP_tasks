@@ -77,7 +77,7 @@ TEST(BitArrayChanges, Resize){
     EXPECT_EQ(bitArray.empty(), true);
 
     bitArray.resize(11, true);
-    EXPECT_EQ(bitArray.size(), 0);
+    EXPECT_EQ(bitArray.size(),11);
     EXPECT_EQ(bitArray.none(), false);
 }
 TEST(BitArrayChanges, Pushback){
