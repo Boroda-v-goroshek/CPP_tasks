@@ -91,7 +91,7 @@ void BitArray::resize(int num_bits, bool value) {
     }
     else {
         for (int i = min_len; i < max_len; i++) {
-            set(i, value);
+            set(i, false);
         }
     }
     this->len = num_bits;
