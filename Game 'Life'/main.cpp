@@ -2,81 +2,89 @@
 #include <fstream>
 #include <string>
 #include <vector>
+#include <cmath>
 
-#define LINE_IS_NUMBER (line[i] > 47 && line[i] < 58)
-
-int str2num(std::string line, int start, int len){
-
-}
+using namespace std;
 
 int main(){
     // переменные для чтения из файла
-    std::ifstream fin("var1.txt");
-    std::string line;
+    ifstream fin("var1.txt");
+    string line;
 
     // переменные для создания поля
-    std::string name;
-    int h = 0, w = 0, n = 10;
-    std::vector<char> b(8), s(8);
-    std::vector<int> coordinates[n];
+    string name;
+    int h, w;
+    vector<char> b, s;
+    vector<int> coordinates;
 
     if (fin.is_open()){
-        int coordinates_count = 0;
 
-        while (std::getline(fin, line)){
+        while (getline(fin, line)){
             if (line[1] == 'N'){
                 name = line;
                 name.erase(0, 3);
             }
             else if (line[1] == 'R'){
-                int len_b = 0, len_s = 0, flag = 1;
+                int temp_num;
 
-                for (int i = 0; i < line.length(); i++){
+                for (int i = 4; i < line.length(); i++){
                     if (line[i] == '/'){
-                        flag = 2;
+                        temp_num = i;
+                        break;
                     }
-                    else if (LINE_IS_NUMBER && flag == 1){
-                        b[len_b] = line[i] - 48;
-                        len_b++;
-                    }
-                    else if (LINE_IS_NUMBER && flag == 2){
-                        s[len_s] = line[i] - 48;
-                        len_s++;
-                    }
+                    b.push_back(line[i] - 48);
                 }
-                b.resize(len_b), s.resize(len_s);
+                for (int i = temp_num + 2; i < line.length() && line[i] != '\n'; i++){
+                    s.push_back(line[i] - 48);
+                }
             }
             else if (line[1] == 'S'){
-                int len_h = 0, len_w = 0, flag = 1;
+                string temp;
+                int temp_num;
 
-                for (int i = 0; flag != 3; i++){
-                    if (flag == 1 && LINE_IS_NUMBER){
-                        flag = 2;
-
-                        char c = 0;
-                        for (int j = i; c != 'x'; j++){
-                            c = line[j];
-                            len_h++;
-                        }
-                        h = str2num(line, i, len_h);
+                for (int i = 3; i < line.length(); i++){
+                    if (line[i] == 'x'){
+                        temp_num = i;
+                        break;
                     }
-                    else if (flag == 2){
-                        flag = 3;
-
-                        char c = 0;
-                        for (int j = i; c != '\0'; j++){
-                            c = line[j];
-                            len_w++;
-                        }
-                        w = str2num(line, i, len_w);
-                    }
+                    temp.push_back(line[i]);
                 }
+
+                h = stoi(temp);
+                temp.erase();
+
+                for (int i = temp_num + 1; i < line.length() && line[i] != '\n'; i++){
+                    temp.push_back(line[i]);
+                }
+                w = stoi(temp);
             }
-            else{
-                coordinates_count++;
+            else if (line[0] != '#') {
+                int sign = 1;
+                string temp;
+                int temp_num;
+
+                for (int i = 0; i < line.length(); i++){
+                    if (line[i] == ' ') {
+                        temp_num = i;
+                        break;
+                    }
+                    if (line[i] == '-') {sign = -1;}
+                    else if (line[i] != ' ') {temp.push_back(line[i]);}
+                }
+                
+                coordinates.push_back(sign * stoi(temp));
+                temp.erase();
+                sign = 1;
+
+                for (int i = temp_num + 1; i < line.length() && line[i] != '\n'; i++){
+                    if (line[i] == '-') {sign = -1;}
+                    else if (line[i] != ' ') {temp.push_back(line[i]);}
+                }
+                coordinates.push_back(sign * stoi(temp));
             }
         }
     }
+    
     
     return 0;
 }

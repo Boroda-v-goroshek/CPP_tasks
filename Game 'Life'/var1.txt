@@ -1,7 +1,7 @@
 #Life 1.06
 #N My universe
 #R B3/S23
-#S 200x200
+#S 21x20
 0 -1
 1 0
 -1 1
