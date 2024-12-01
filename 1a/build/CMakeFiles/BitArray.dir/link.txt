@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBitArray.a CMakeFiles/BitArray.dir/BitArray.cpp.o
+/usr/bin/ranlib libBitArray.a

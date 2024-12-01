@@ -1,0 +1,4 @@
+/home/babrakadabra/second_course/C/CPP/1a/CMakeFiles/BitArray.dir
+/home/babrakadabra/second_course/C/CPP/1a/CMakeFiles/main.dir
+/home/babrakadabra/second_course/C/CPP/1a/CMakeFiles/edit_cache.dir
+/home/babrakadabra/second_course/C/CPP/1a/CMakeFiles/rebuild_cache.dir

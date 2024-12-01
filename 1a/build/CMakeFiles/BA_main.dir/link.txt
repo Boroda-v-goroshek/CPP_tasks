@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/BA_main.dir/main.cpp.o -o BA_main  lib/libbitArray.a 
