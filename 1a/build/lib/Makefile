@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/babrakadabra/second_course/C/CPP/1a
+CMAKE_SOURCE_DIR = /home/babrakadabra/second_course/CPP_tasks/1a
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/babrakadabra/second_course/C/CPP/1a/build
+CMAKE_BINARY_DIR = /home/babrakadabra/second_course/CPP_tasks/1a/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/babrakadabra/second_course/C/CPP/1a/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/babrakadabra/second_course/C/CPP/1a/build/CMakeFiles /home/babrakadabra/second_course/C/CPP/1a/build/lib//CMakeFiles/progress.marks
-	cd /home/babrakadabra/second_course/C/CPP/1a/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/babrakadabra/second_course/C/CPP/1a/build/CMakeFiles 0
+	cd /home/babrakadabra/second_course/CPP_tasks/1a/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/babrakadabra/second_course/CPP_tasks/1a/build/CMakeFiles /home/babrakadabra/second_course/CPP_tasks/1a/build/lib//CMakeFiles/progress.marks
+	cd /home/babrakadabra/second_course/CPP_tasks/1a/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/babrakadabra/second_course/CPP_tasks/1a/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/babrakadabra/second_course/C/CPP/1a/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
+	cd /home/babrakadabra/second_course/CPP_tasks/1a/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/babrakadabra/second_course/C/CPP/1a/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/babrakadabra/second_course/CPP_tasks/1a/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/babrakadabra/second_course/C/CPP/1a/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
+	cd /home/babrakadabra/second_course/CPP_tasks/1a/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/babrakadabra/second_course/C/CPP/1a/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/babrakadabra/second_course/CPP_tasks/1a/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/CMakeFiles/bitArray.dir/rule:
-	cd /home/babrakadabra/second_course/C/CPP/1a/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/bitArray.dir/rule
+	cd /home/babrakadabra/second_course/CPP_tasks/1a/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/bitArray.dir/rule
 .PHONY : lib/CMakeFiles/bitArray.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ bitArray: lib/CMakeFiles/bitArray.dir/rule
 
 # fast build rule for target.
 bitArray/fast:
-	cd /home/babrakadabra/second_course/C/CPP/1a/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/bitArray.dir/build.make lib/CMakeFiles/bitArray.dir/build
+	cd /home/babrakadabra/second_course/CPP_tasks/1a/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/bitArray.dir/build.make lib/CMakeFiles/bitArray.dir/build
 .PHONY : bitArray/fast
 
 BitArray.o: BitArray.cpp.o
@@ -190,7 +190,7 @@ BitArray.o: BitArray.cpp.o
 
 # target to build an object file
 BitArray.cpp.o:
-	cd /home/babrakadabra/second_course/C/CPP/1a/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/bitArray.dir/build.make lib/CMakeFiles/bitArray.dir/BitArray.cpp.o
+	cd /home/babrakadabra/second_course/CPP_tasks/1a/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/bitArray.dir/build.make lib/CMakeFiles/bitArray.dir/BitArray.cpp.o
 .PHONY : BitArray.cpp.o
 
 BitArray.i: BitArray.cpp.i
@@ -198,7 +198,7 @@ BitArray.i: BitArray.cpp.i
 
 # target to preprocess a source file
 BitArray.cpp.i:
-	cd /home/babrakadabra/second_course/C/CPP/1a/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/bitArray.dir/build.make lib/CMakeFiles/bitArray.dir/BitArray.cpp.i
+	cd /home/babrakadabra/second_course/CPP_tasks/1a/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/bitArray.dir/build.make lib/CMakeFiles/bitArray.dir/BitArray.cpp.i
 .PHONY : BitArray.cpp.i
 
 BitArray.s: BitArray.cpp.s
@@ -206,7 +206,7 @@ BitArray.s: BitArray.cpp.s
 
 # target to generate assembly for a file
 BitArray.cpp.s:
-	cd /home/babrakadabra/second_course/C/CPP/1a/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/bitArray.dir/build.make lib/CMakeFiles/bitArray.dir/BitArray.cpp.s
+	cd /home/babrakadabra/second_course/CPP_tasks/1a/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/bitArray.dir/build.make lib/CMakeFiles/bitArray.dir/BitArray.cpp.s
 .PHONY : BitArray.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/babrakadabra/second_course/C/CPP/1a/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/babrakadabra/second_course/CPP_tasks/1a/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

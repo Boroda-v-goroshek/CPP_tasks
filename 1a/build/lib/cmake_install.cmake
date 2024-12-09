@@ -1,4 +1,4 @@
-# Install script for directory: /home/babrakadabra/second_course/C/CPP/1a/lib
+# Install script for directory: /home/babrakadabra/second_course/CPP_tasks/1a/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

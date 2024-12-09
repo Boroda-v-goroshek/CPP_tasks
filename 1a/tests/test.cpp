@@ -122,13 +122,13 @@ TEST(BitArrayPrintResults, ToString){
 TEST(BitArrayPrintResults, Get){
     BitArray bitArray(19);
     EXPECT_EQ(bitArray.size(), 19);
-    EXPECT_EQ(bitArray.none(), true);
 
     bitArray.set(2);
     EXPECT_TRUE(bitArray[2]);
     EXPECT_FALSE(bitArray[3]);
 
     bitArray.set();
+    EXPECT_TRUE(bitArray[0]);
     EXPECT_TRUE(bitArray[2]);
     EXPECT_TRUE(bitArray[3]);
     EXPECT_TRUE(bitArray[4]);
@@ -137,6 +137,34 @@ TEST(BitArrayPrintResults, Get){
     EXPECT_EQ(a.size(), 1);
     EXPECT_EQ(a.any(), true);
     EXPECT_TRUE(a[0]);
+}
+TEST(BitArrayPrintResults, Any){
+    BitArray bitArray(19);
+    EXPECT_EQ(bitArray.size(), 19);
+    EXPECT_EQ(bitArray.none(), true);
+
+    bitArray.set(2);
+    EXPECT_TRUE(bitArray[2]);
+    EXPECT_FALSE(bitArray[3]);
+
+    bitArray.set();
+    EXPECT_EQ(bitArray.any(), true);
+    BitArray a(1, 1);
+    EXPECT_EQ(a.size(), 1);
+    EXPECT_EQ(a.any(), true);
+}
+TEST(BitArrayPrintResults, None){
+    BitArray bitArray(19);
+    EXPECT_EQ(bitArray.none(), true);
+
+    bitArray.set(2);
+    EXPECT_TRUE(bitArray[2]);
+    EXPECT_FALSE(bitArray[3]);
+
+    bitArray.set();
+    BitArray a(1, 1);
+    EXPECT_EQ(a.size(), 1);
+    EXPECT_EQ(a.none(), false);
 }
 
 TEST(BitArrayOperatorsInFirstGroup, OperatorEqXOR){

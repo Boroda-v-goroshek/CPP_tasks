@@ -1,5 +1,5 @@
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc \
  /usr/include/stdc-predef.h /usr/include/c++/13/cstdio \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -28,7 +28,7 @@ _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o:
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
  /usr/include/c++/13/cstddef /usr/include/c++/13/limits \
  /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/c++/13/bits/allocator.h \
@@ -166,12 +166,12 @@ _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o:
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
  /usr/include/c++/13/sstream /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
  /usr/include/c++/13/bits/sstream.tcc \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
  /usr/include/c++/13/stdlib.h /usr/include/string.h \
  /usr/include/strings.h /usr/include/c++/13/cstdint \
  /usr/include/c++/13/iostream /usr/include/c++/13/locale \
@@ -196,8 +196,8 @@ _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o:
  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
@@ -209,14 +209,14 @@ _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o:
  /usr/include/c++/13/ratio /usr/include/c++/13/bits/parse_numbers.h \
  /usr/include/c++/13/bits/std_mutex.h \
  /usr/include/c++/13/bits/unique_lock.h /usr/include/c++/13/mutex \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
  /usr/include/c++/13/atomic \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h \
  /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
  /usr/include/c++/13/utility /usr/include/c++/13/bits/stl_relops.h \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
  /usr/include/x86_64-linux-gnu/sys/wait.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
@@ -248,17 +248,17 @@ _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o:
  /usr/include/c++/13/bits/erase_if.h /usr/include/c++/13/set \
  /usr/include/c++/13/bits/stl_set.h \
  /usr/include/c++/13/bits/stl_multiset.h \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
  /usr/include/c++/13/cxxabi.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/cxxabi_tweaks.h \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
  /usr/include/c++/13/iterator /usr/include/c++/13/bits/stream_iterator.h \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
  /usr/include/c++/13/cassert /usr/include/assert.h \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
- /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
+ /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h

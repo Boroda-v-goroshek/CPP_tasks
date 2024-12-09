@@ -1,0 +1,6 @@
+/home/babrakadabra/second_course/CPP_tasks/Game Life/build/CMakeFiles/run_game.dir
+/home/babrakadabra/second_course/CPP_tasks/Game Life/build/CMakeFiles/edit_cache.dir
+/home/babrakadabra/second_course/CPP_tasks/Game Life/build/CMakeFiles/rebuild_cache.dir
+/home/babrakadabra/second_course/CPP_tasks/Game Life/build/lib/CMakeFiles/life.dir
+/home/babrakadabra/second_course/CPP_tasks/Game Life/build/lib/CMakeFiles/edit_cache.dir
+/home/babrakadabra/second_course/CPP_tasks/Game Life/build/lib/CMakeFiles/rebuild_cache.dir

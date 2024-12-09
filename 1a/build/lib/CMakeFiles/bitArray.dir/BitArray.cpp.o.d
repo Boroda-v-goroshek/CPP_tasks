@@ -1,5 +1,5 @@
 lib/CMakeFiles/bitArray.dir/BitArray.cpp.o: \
- /home/babrakadabra/second_course/C/CPP/1a/lib/BitArray.cpp \
+ /home/babrakadabra/second_course/CPP_tasks/1a/lib/BitArray.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/cmath \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -85,7 +85,7 @@ lib/CMakeFiles/bitArray.dir/BitArray.cpp.o: \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
  /usr/include/c++/13/tr1/riemann_zeta.tcc \
- /home/babrakadabra/second_course/C/CPP/1a/lib/BitArray.hpp \
+ /home/babrakadabra/second_course/CPP_tasks/1a/lib/BitArray.hpp \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/iosfwd \
  /usr/include/c++/13/bits/stringfwd.h \

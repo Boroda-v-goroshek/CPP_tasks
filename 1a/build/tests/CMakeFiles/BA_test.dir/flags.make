@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/babrakadabra/second_course/C/CPP/1a/. -isystem /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest/include -isystem /home/babrakadabra/second_course/C/CPP/1a/build/_deps/googletest-src/googletest
+CXX_INCLUDES = -I/home/babrakadabra/second_course/CPP_tasks/1a/. -isystem /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/include -isystem /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest
 
 CXX_FLAGS = -std=gnu++14
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/babrakadabra/second_course/C/CPP/1a
+# Install script for directory: /home/babrakadabra/second_course/CPP_tasks/1a
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/babrakadabra/second_course/C/CPP/1a/build/lib/cmake_install.cmake")
-  include("/home/babrakadabra/second_course/C/CPP/1a/build/tests/cmake_install.cmake")
+  include("/home/babrakadabra/second_course/CPP_tasks/1a/build/lib/cmake_install.cmake")
+  include("/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/babrakadabra/second_course/C/CPP/1a/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/babrakadabra/second_course/CPP_tasks/1a/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
