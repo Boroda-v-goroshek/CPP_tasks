@@ -164,6 +164,9 @@ void BitArray::swap(BitArray& b) {
         //std::cout << (unsigned int)b.bit_array[j] << " ";
         //std::cout << (unsigned int)this->bit_array[j] << std::endl;
     }
+    int temp = this->len;
+    this->len = b.len;
+    b.len = temp;
 }
 
 /**

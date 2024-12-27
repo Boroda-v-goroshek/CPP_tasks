@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/sound_proccesor.dir/main.cpp.o -o sound_proccesor  lib/libsound_proccesor_lib.a 

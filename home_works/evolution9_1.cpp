@@ -5,14 +5,14 @@
 class GenericCreature {
 public:
     void info() const {
-        std::cout << "Это общее существо." << std::endl;
+        std::cout << "Я существо." << std::endl;
     }
 };
 
 // Класс для морских существ, наследуется от GenericCreature
-class OceanCreature : public GenericCreature {
+class OceanCreature : private GenericCreature {
 public:
-    void swim() const {
+    void move_ocean_creature() const {
         std::cout << "Я умею плавать!" << std::endl;
     }
 
@@ -23,9 +23,10 @@ public:
 };
 
 // Класс для амфибий, наследуется от OceanCreature
-class Amphibious : public OceanCreature {
+class Amphibious : private OceanCreature {
 public:
-    void walk() const {
+    void move_amphibious() const {
+        OceanCreature::move_ocean_creature();
         std::cout << "Я умею ходить!" << std::endl;
     }
 
@@ -36,22 +37,23 @@ public:
 };
 
 // Класс для наземных существ, наследуется от GenericCreature
-class TerrestrialCreature : public GenericCreature {
+class TerrestrialCreature : private Amphibious {
 public:
-    void walk() const {
+    void move_terresrial_creature() const {
         std::cout << "Я умею ходить!" << std::endl;
     }
 
     void info() const {
-        GenericCreature::info();
+        Amphibious::info();
         std::cout << "Я наземное существо." << std::endl;
     }
 };
 
 // Класс для птиц, наследуется от TerrestrialCreature
-class Bird : public TerrestrialCreature {
+class Bird : private TerrestrialCreature {
 public:
-    void fly() const {
+    void move_bird() const {
+        TerrestrialCreature::move_terresrial_creature();
         std::cout << "Я умею летать!" << std::endl;
     }
 
@@ -62,9 +64,10 @@ public:
 };
 
 // Класс для водоплавающих птиц, наследуется от Bird
-class Waterfowl : public Bird {
+class Waterfowl : private Bird {
 public:
-    void swim() const {
+    void move_waterfowl() const {
+        Bird::move_bird();
         std::cout << "Я умею плавать!" << std::endl;
     }
 
@@ -87,27 +90,23 @@ int main() {
     generic.info();
     std::cout << "----" << std::endl;
     ocean.info();
-    ocean.swim();
+    ocean.move_ocean_creature();
     std::cout << "----" << std::endl;
     
     amphibian.info();
-    amphibian.swim();
-    amphibian.walk();
+    amphibian.move_amphibious();
     std::cout << "----" << std::endl;
     
     terrestrial.info();
-    terrestrial.walk();
+    terrestrial.move_terresrial_creature();
     std::cout << "----" << std::endl;
     
     bird.info();
-    bird.walk();
-    bird.fly();
+    bird.move_bird();
     std::cout << "----" << std::endl;
     
     waterfowl.info();
-    waterfowl.walk();
-    waterfowl.fly();
-    waterfowl.swim();
+    waterfowl.move_waterfowl();
     std::cout << "----" << std::endl;
 
     return 0;

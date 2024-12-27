@@ -1,0 +1,678 @@
+Start testing: Dec 21 16:56 +07
+----------------------------------------------------------
+1/25 Testing: BitArrayConstructors.Constructor
+1/25 Test: BitArrayConstructors.Constructor
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayConstructors.Constructor" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayConstructors.Constructor" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayConstructors.Constructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayConstructors
+[ RUN      ] BitArrayConstructors.Constructor
+[       OK ] BitArrayConstructors.Constructor (0 ms)
+[----------] 1 test from BitArrayConstructors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayConstructors.Constructor" end time: Dec 21 16:56 +07
+"BitArrayConstructors.Constructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/25 Testing: BitArrayConstructors.Copy
+2/25 Test: BitArrayConstructors.Copy
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayConstructors.Copy" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayConstructors.Copy" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayConstructors.Copy
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayConstructors
+[ RUN      ] BitArrayConstructors.Copy
+[       OK ] BitArrayConstructors.Copy (0 ms)
+[----------] 1 test from BitArrayConstructors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayConstructors.Copy" end time: Dec 21 16:56 +07
+"BitArrayConstructors.Copy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/25 Testing: BitArrayChanges.Swap
+3/25 Test: BitArrayChanges.Swap
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayChanges.Swap" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayChanges.Swap" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayChanges.Swap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayChanges
+[ RUN      ] BitArrayChanges.Swap
+[       OK ] BitArrayChanges.Swap (0 ms)
+[----------] 1 test from BitArrayChanges (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayChanges.Swap" end time: Dec 21 16:56 +07
+"BitArrayChanges.Swap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/25 Testing: BitArrayChanges.Set
+4/25 Test: BitArrayChanges.Set
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayChanges.Set" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayChanges.Set" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayChanges.Set
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayChanges
+[ RUN      ] BitArrayChanges.Set
+[       OK ] BitArrayChanges.Set (0 ms)
+[----------] 1 test from BitArrayChanges (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayChanges.Set" end time: Dec 21 16:56 +07
+"BitArrayChanges.Set" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/25 Testing: BitArrayChanges.Reset
+5/25 Test: BitArrayChanges.Reset
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayChanges.Reset" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayChanges.Reset" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayChanges.Reset
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayChanges
+[ RUN      ] BitArrayChanges.Reset
+[       OK ] BitArrayChanges.Reset (0 ms)
+[----------] 1 test from BitArrayChanges (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayChanges.Reset" end time: Dec 21 16:56 +07
+"BitArrayChanges.Reset" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/25 Testing: BitArrayChanges.Resize
+6/25 Test: BitArrayChanges.Resize
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayChanges.Resize" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayChanges.Resize" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayChanges.Resize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayChanges
+[ RUN      ] BitArrayChanges.Resize
+[       OK ] BitArrayChanges.Resize (0 ms)
+[----------] 1 test from BitArrayChanges (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayChanges.Resize" end time: Dec 21 16:56 +07
+"BitArrayChanges.Resize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/25 Testing: BitArrayChanges.Pushback
+7/25 Test: BitArrayChanges.Pushback
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayChanges.Pushback" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayChanges.Pushback" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayChanges.Pushback
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayChanges
+[ RUN      ] BitArrayChanges.Pushback
+[       OK ] BitArrayChanges.Pushback (0 ms)
+[----------] 1 test from BitArrayChanges (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayChanges.Pushback" end time: Dec 21 16:56 +07
+"BitArrayChanges.Pushback" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/25 Testing: BitArrayPrintResults.ToString
+8/25 Test: BitArrayPrintResults.ToString
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayPrintResults.ToString" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayPrintResults.ToString" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayPrintResults.ToString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayPrintResults
+[ RUN      ] BitArrayPrintResults.ToString
+[       OK ] BitArrayPrintResults.ToString (0 ms)
+[----------] 1 test from BitArrayPrintResults (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayPrintResults.ToString" end time: Dec 21 16:56 +07
+"BitArrayPrintResults.ToString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/25 Testing: BitArrayPrintResults.Get
+9/25 Test: BitArrayPrintResults.Get
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayPrintResults.Get" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayPrintResults.Get" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayPrintResults.Get
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayPrintResults
+[ RUN      ] BitArrayPrintResults.Get
+[       OK ] BitArrayPrintResults.Get (0 ms)
+[----------] 1 test from BitArrayPrintResults (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayPrintResults.Get" end time: Dec 21 16:56 +07
+"BitArrayPrintResults.Get" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/25 Testing: BitArrayPrintResults.Any
+10/25 Test: BitArrayPrintResults.Any
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayPrintResults.Any" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayPrintResults.Any" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayPrintResults.Any
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayPrintResults
+[ RUN      ] BitArrayPrintResults.Any
+[       OK ] BitArrayPrintResults.Any (0 ms)
+[----------] 1 test from BitArrayPrintResults (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayPrintResults.Any" end time: Dec 21 16:56 +07
+"BitArrayPrintResults.Any" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/25 Testing: BitArrayPrintResults.None
+11/25 Test: BitArrayPrintResults.None
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayPrintResults.None" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayPrintResults.None" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayPrintResults.None
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayPrintResults
+[ RUN      ] BitArrayPrintResults.None
+[       OK ] BitArrayPrintResults.None (0 ms)
+[----------] 1 test from BitArrayPrintResults (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayPrintResults.None" end time: Dec 21 16:56 +07
+"BitArrayPrintResults.None" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/25 Testing: BitArrayOperatorsInFirstGroup.OperatorEq
+12/25 Test: BitArrayOperatorsInFirstGroup.OperatorEq
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayOperatorsInFirstGroup.OperatorEq" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayOperatorsInFirstGroup.OperatorEq" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayOperatorsInFirstGroup.OperatorEq
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayOperatorsInFirstGroup
+[ RUN      ] BitArrayOperatorsInFirstGroup.OperatorEq
+[       OK ] BitArrayOperatorsInFirstGroup.OperatorEq (0 ms)
+[----------] 1 test from BitArrayOperatorsInFirstGroup (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayOperatorsInFirstGroup.OperatorEq" end time: Dec 21 16:56 +07
+"BitArrayOperatorsInFirstGroup.OperatorEq" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/25 Testing: BitArrayOperatorsInFirstGroup.OperatorEqXOR
+13/25 Test: BitArrayOperatorsInFirstGroup.OperatorEqXOR
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayOperatorsInFirstGroup.OperatorEqXOR" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayOperatorsInFirstGroup.OperatorEqXOR" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayOperatorsInFirstGroup.OperatorEqXOR
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayOperatorsInFirstGroup
+[ RUN      ] BitArrayOperatorsInFirstGroup.OperatorEqXOR
+[       OK ] BitArrayOperatorsInFirstGroup.OperatorEqXOR (0 ms)
+[----------] 1 test from BitArrayOperatorsInFirstGroup (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayOperatorsInFirstGroup.OperatorEqXOR" end time: Dec 21 16:56 +07
+"BitArrayOperatorsInFirstGroup.OperatorEqXOR" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/25 Testing: BitArrayOperatorsInFirstGroup.OperatorEqAND
+14/25 Test: BitArrayOperatorsInFirstGroup.OperatorEqAND
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayOperatorsInFirstGroup.OperatorEqAND" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayOperatorsInFirstGroup.OperatorEqAND" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayOperatorsInFirstGroup.OperatorEqAND
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayOperatorsInFirstGroup
+[ RUN      ] BitArrayOperatorsInFirstGroup.OperatorEqAND
+[       OK ] BitArrayOperatorsInFirstGroup.OperatorEqAND (0 ms)
+[----------] 1 test from BitArrayOperatorsInFirstGroup (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayOperatorsInFirstGroup.OperatorEqAND" end time: Dec 21 16:56 +07
+"BitArrayOperatorsInFirstGroup.OperatorEqAND" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/25 Testing: BitArrayOperatorsInFirstGroup.OperatorEqOR
+15/25 Test: BitArrayOperatorsInFirstGroup.OperatorEqOR
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayOperatorsInFirstGroup.OperatorEqOR" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayOperatorsInFirstGroup.OperatorEqOR" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayOperatorsInFirstGroup.OperatorEqOR
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayOperatorsInFirstGroup
+[ RUN      ] BitArrayOperatorsInFirstGroup.OperatorEqOR
+[       OK ] BitArrayOperatorsInFirstGroup.OperatorEqOR (0 ms)
+[----------] 1 test from BitArrayOperatorsInFirstGroup (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayOperatorsInFirstGroup.OperatorEqOR" end time: Dec 21 16:56 +07
+"BitArrayOperatorsInFirstGroup.OperatorEqOR" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/25 Testing: BitArrayOperatorsInSecondGroup.OperatorToLeft
+16/25 Test: BitArrayOperatorsInSecondGroup.OperatorToLeft
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayOperatorsInSecondGroup.OperatorToLeft" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayOperatorsInSecondGroup.OperatorToLeft" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayOperatorsInSecondGroup.OperatorToLeft
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayOperatorsInSecondGroup
+[ RUN      ] BitArrayOperatorsInSecondGroup.OperatorToLeft
+[       OK ] BitArrayOperatorsInSecondGroup.OperatorToLeft (0 ms)
+[----------] 1 test from BitArrayOperatorsInSecondGroup (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayOperatorsInSecondGroup.OperatorToLeft" end time: Dec 21 16:56 +07
+"BitArrayOperatorsInSecondGroup.OperatorToLeft" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/25 Testing: BitArrayOperatorsInSecondGroup.OperatorToRight
+17/25 Test: BitArrayOperatorsInSecondGroup.OperatorToRight
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayOperatorsInSecondGroup.OperatorToRight" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayOperatorsInSecondGroup.OperatorToRight" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayOperatorsInSecondGroup.OperatorToRight
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayOperatorsInSecondGroup
+[ RUN      ] BitArrayOperatorsInSecondGroup.OperatorToRight
+[       OK ] BitArrayOperatorsInSecondGroup.OperatorToRight (0 ms)
+[----------] 1 test from BitArrayOperatorsInSecondGroup (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayOperatorsInSecondGroup.OperatorToRight" end time: Dec 21 16:56 +07
+"BitArrayOperatorsInSecondGroup.OperatorToRight" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/25 Testing: BitArrayOperatorsInThirdGroup.OperatorBoolEq
+18/25 Test: BitArrayOperatorsInThirdGroup.OperatorBoolEq
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayOperatorsInThirdGroup.OperatorBoolEq" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayOperatorsInThirdGroup.OperatorBoolEq" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayOperatorsInThirdGroup.OperatorBoolEq
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayOperatorsInThirdGroup
+[ RUN      ] BitArrayOperatorsInThirdGroup.OperatorBoolEq
+[       OK ] BitArrayOperatorsInThirdGroup.OperatorBoolEq (0 ms)
+[----------] 1 test from BitArrayOperatorsInThirdGroup (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayOperatorsInThirdGroup.OperatorBoolEq" end time: Dec 21 16:56 +07
+"BitArrayOperatorsInThirdGroup.OperatorBoolEq" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/25 Testing: BitArrayOperatorsInThirdGroup.OperatorBoolNotEq
+19/25 Test: BitArrayOperatorsInThirdGroup.OperatorBoolNotEq
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayOperatorsInThirdGroup.OperatorBoolNotEq" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayOperatorsInThirdGroup.OperatorBoolNotEq" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayOperatorsInThirdGroup.OperatorBoolNotEq
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayOperatorsInThirdGroup
+[ RUN      ] BitArrayOperatorsInThirdGroup.OperatorBoolNotEq
+[       OK ] BitArrayOperatorsInThirdGroup.OperatorBoolNotEq (0 ms)
+[----------] 1 test from BitArrayOperatorsInThirdGroup (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayOperatorsInThirdGroup.OperatorBoolNotEq" end time: Dec 21 16:56 +07
+"BitArrayOperatorsInThirdGroup.OperatorBoolNotEq" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/25 Testing: BitArrayOperatorsInThirdGroup.OperatorTilda
+20/25 Test: BitArrayOperatorsInThirdGroup.OperatorTilda
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayOperatorsInThirdGroup.OperatorTilda" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayOperatorsInThirdGroup.OperatorTilda" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayOperatorsInThirdGroup.OperatorTilda
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayOperatorsInThirdGroup
+[ RUN      ] BitArrayOperatorsInThirdGroup.OperatorTilda
+[       OK ] BitArrayOperatorsInThirdGroup.OperatorTilda (0 ms)
+[----------] 1 test from BitArrayOperatorsInThirdGroup (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayOperatorsInThirdGroup.OperatorTilda" end time: Dec 21 16:56 +07
+"BitArrayOperatorsInThirdGroup.OperatorTilda" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/25 Testing: BitArrayAnotherBoolFunctions.Clear
+21/25 Test: BitArrayAnotherBoolFunctions.Clear
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayAnotherBoolFunctions.Clear" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayAnotherBoolFunctions.Clear" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayAnotherBoolFunctions.Clear
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayAnotherBoolFunctions
+[ RUN      ] BitArrayAnotherBoolFunctions.Clear
+[       OK ] BitArrayAnotherBoolFunctions.Clear (0 ms)
+[----------] 1 test from BitArrayAnotherBoolFunctions (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayAnotherBoolFunctions.Clear" end time: Dec 21 16:56 +07
+"BitArrayAnotherBoolFunctions.Clear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/25 Testing: BitArrayAnotherBoolFunctions.IsEmpty
+22/25 Test: BitArrayAnotherBoolFunctions.IsEmpty
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayAnotherBoolFunctions.IsEmpty" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayAnotherBoolFunctions.IsEmpty" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayAnotherBoolFunctions.IsEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayAnotherBoolFunctions
+[ RUN      ] BitArrayAnotherBoolFunctions.IsEmpty
+[       OK ] BitArrayAnotherBoolFunctions.IsEmpty (0 ms)
+[----------] 1 test from BitArrayAnotherBoolFunctions (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayAnotherBoolFunctions.IsEmpty" end time: Dec 21 16:56 +07
+"BitArrayAnotherBoolFunctions.IsEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/25 Testing: BitArrayOperatorsInFourthGroup.OperatorXOR
+23/25 Test: BitArrayOperatorsInFourthGroup.OperatorXOR
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayOperatorsInFourthGroup.OperatorXOR" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayOperatorsInFourthGroup.OperatorXOR" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayOperatorsInFourthGroup.OperatorXOR
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayOperatorsInFourthGroup
+[ RUN      ] BitArrayOperatorsInFourthGroup.OperatorXOR
+[       OK ] BitArrayOperatorsInFourthGroup.OperatorXOR (0 ms)
+[----------] 1 test from BitArrayOperatorsInFourthGroup (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayOperatorsInFourthGroup.OperatorXOR" end time: Dec 21 16:56 +07
+"BitArrayOperatorsInFourthGroup.OperatorXOR" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/25 Testing: BitArrayOperatorsInFourthGroup.OperatorAND
+24/25 Test: BitArrayOperatorsInFourthGroup.OperatorAND
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayOperatorsInFourthGroup.OperatorAND" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayOperatorsInFourthGroup.OperatorAND" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayOperatorsInFourthGroup.OperatorAND
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayOperatorsInFourthGroup
+[ RUN      ] BitArrayOperatorsInFourthGroup.OperatorAND
+[       OK ] BitArrayOperatorsInFourthGroup.OperatorAND (0 ms)
+[----------] 1 test from BitArrayOperatorsInFourthGroup (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayOperatorsInFourthGroup.OperatorAND" end time: Dec 21 16:56 +07
+"BitArrayOperatorsInFourthGroup.OperatorAND" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/25 Testing: BitArrayOperatorsInFourthGroup.OperatorOR
+25/25 Test: BitArrayOperatorsInFourthGroup.OperatorOR
+Command: "/home/babrakadabra/second_course/CPP_tasks/1a/build/tests/BA_test" "--gtest_filter=BitArrayOperatorsInFourthGroup.OperatorOR" "--gtest_also_run_disabled_tests"
+Directory: /home/babrakadabra/second_course/CPP_tasks/1a/build/tests
+"BitArrayOperatorsInFourthGroup.OperatorOR" start time: Dec 21 16:56 +07
+Output:
+----------------------------------------------------------
+Running main() from /home/babrakadabra/second_course/CPP_tasks/1a/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = BitArrayOperatorsInFourthGroup.OperatorOR
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BitArrayOperatorsInFourthGroup
+[ RUN      ] BitArrayOperatorsInFourthGroup.OperatorOR
+[       OK ] BitArrayOperatorsInFourthGroup.OperatorOR (0 ms)
+[----------] 1 test from BitArrayOperatorsInFourthGroup (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BitArrayOperatorsInFourthGroup.OperatorOR" end time: Dec 21 16:56 +07
+"BitArrayOperatorsInFourthGroup.OperatorOR" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 21 16:56 +07

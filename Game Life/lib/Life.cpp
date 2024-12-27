@@ -26,6 +26,14 @@ int Cell::get_n(){return this->neighbours;}
 
     void Field::change(int x, int y, int sign){
         auto [id_x, id_y] = normalize(x, y);
+        if (id_x >= w || id_x < 0){
+                cout << "Выход по x";
+                exit(1);
+        }     
+        if (id_y >= h || id_y < 0){
+            cout << "Выход по y";
+            exit(1);
+        }
         if (sign == 1){field[id_y][id_x].inc();}
         else {field[id_y][id_x].dec();}
     }
@@ -52,37 +60,45 @@ int Cell::get_n(){return this->neighbours;}
      * Выводит поле, где каждая клетка характеризуется
      * кол-вом соседей
      */
-    void Field::printN(){
+    vector<vector<int>> Field::GetN(){
+        vector<vector<int>> neighbours(h, vector<int>(w));
+
         for (int i = 0; i < h; i++){
             for (int j = 0; j < w; j++){
-                cout << field[i][j].get_n() << ' ';
+                neighbours[i][j] = field[i][j].get_n();
             }
-            cout << endl;
         }
-        cout << endl;
+        return neighbours;
     }
 
-    Field::Field(int height, int width, set<int> b, set<int> s, vector<int> coordinates, string name)
+    Field::Field(int height, int width, set<int> b, set<int> s, vector<int> coordinates, string name = "My universe")
     :h(height), w(width), rules_b(b), rules_s(s), name(name)
     {
-        field.resize(h, vector<Cell>(w));
+        field.resize(h+2, vector<Cell>(w+2));
         for (int i = 0; i < h; i++){
             for (int j = 0; j < w; j++){
                 field[i][j] = Cell();
             }
         }
-
+        
         for (int i = 0; i < coordinates.size(); i += 2){
             int id_x = w/2 + coordinates[i] - 1, id_y = h/2 - coordinates[i + 1] - 1;
+            if (id_x >= w || id_x < 0){
+                cout << "Выход по x";
+                exit(1);
+            }
+            if (id_y >= h || id_y < 0){
+                cout << "Выход по y";
+                exit(1);
+            }
+            if (field[id_y][id_x].is_life()){
+                cerr << "Повтор координат живой клетки!" << endl;
+            }
             field[id_y][id_x].to_life();
             changes(id_x, id_y, 1);        
         }
     }
-    Field::~Field(){
-        name = nullptr;
-        rules_b.clear();
-        rules_s.clear();
-    }
+    
     /**
      * Вывод состояния поля
      */
@@ -174,8 +190,8 @@ int Cell::get_n(){return this->neighbours;}
             for (int x = 0; x < w; ++x) {
                 if (field[y][x].is_life()) {
                     // Вычисляем координаты относительно центра
-                    int relative_x = x + (w / 2);
-                    int relative_y = (h / 2) - y; // обрати внимание на направление оси Y
+                    int relative_x = x - (w / 2) + 1;
+                    int relative_y = (h / 2) - y - 1; // обрати внимание на направление оси Y
                     outfile << relative_x << " " << relative_y << "\n";
                 }
             }
@@ -184,5 +200,25 @@ int Cell::get_n(){return this->neighbours;}
         outfile.close();
         cout << "Состояние вселенной успешно записано в файл: " << filename << endl;
     }
+
+    vector<int> Field::getSize(){
+        vector<int> size;
+        size.push_back(h);
+        size.push_back(w);
+        return size;
+    }
+    string Field::getName(){
+        return name;
+    }
+    vector<vector<Cell>> Field::getField(){
+        return field;
+    }
+    vector<set<int>> Field::getRules(){
+        vector<set<int>> rules;
+        rules.push_back(rules_b);
+        rules.push_back(rules_s);
+        return rules;
+    }
+
 
     

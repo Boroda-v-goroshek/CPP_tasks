@@ -1,0 +1,6 @@
+/home/babrakadabra/second_course/CPP_tasks/SoundProccesor/build/CMakeFiles/sound_proccesor.dir
+/home/babrakadabra/second_course/CPP_tasks/SoundProccesor/build/CMakeFiles/edit_cache.dir
+/home/babrakadabra/second_course/CPP_tasks/SoundProccesor/build/CMakeFiles/rebuild_cache.dir
+/home/babrakadabra/second_course/CPP_tasks/SoundProccesor/build/lib/CMakeFiles/sound_proccesor_lib.dir
+/home/babrakadabra/second_course/CPP_tasks/SoundProccesor/build/lib/CMakeFiles/edit_cache.dir
+/home/babrakadabra/second_course/CPP_tasks/SoundProccesor/build/lib/CMakeFiles/rebuild_cache.dir

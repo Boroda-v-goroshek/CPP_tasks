@@ -3,6 +3,8 @@
 
 CMakeFiles/run_game.dir/main.cpp.o
  /home/babrakadabra/second_course/CPP_tasks/Game Life/main.cpp
+ /home/babrakadabra/second_course/CPP_tasks/Game Life/lib/GamePars.hpp
+ /home/babrakadabra/second_course/CPP_tasks/Game Life/lib/GameProcces.hpp
  /home/babrakadabra/second_course/CPP_tasks/Game Life/lib/Life.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h

@@ -14,13 +14,17 @@ TEST(BitArrayConstructors, Constructor){
     EXPECT_EQ(abc[2], true);
     EXPECT_EQ(abc[3], true);
 
+
+
+    
+
     BitArray a(3, 7);
     EXPECT_EQ(a.size(), 3);
     EXPECT_EQ(a.none(), false);
 
     BitArray b(0, 7);
     EXPECT_EQ(b.size(), 0);
-    EXPECT_EQ(b.none(), false);
+    EXPECT_EQ(b.none(), true);
 
     BitArray c(31);
     EXPECT_EQ(c.size(), 31);
@@ -51,6 +55,11 @@ TEST(BitArrayChanges, Swap){
     EXPECT_TRUE(c[1]);
     EXPECT_EQ(a.size(), 5);
     EXPECT_EQ(c.size(), 3);
+
+    c.swap(c);
+    EXPECT_TRUE(c[0]);
+    EXPECT_TRUE(c[1]);
+    EXPECT_EQ(c.size(), 3);
 }
 TEST(BitArrayChanges, Set) {
     BitArray bitArray(8);
@@ -58,8 +67,19 @@ TEST(BitArrayChanges, Set) {
     EXPECT_EQ(bitArray.none(), true);
 
     bitArray.set(2);
+    EXPECT_FALSE(bitArray[1]);
     EXPECT_TRUE(bitArray[2]);
     EXPECT_FALSE(bitArray[3]);
+
+    bitArray.set(2);
+    EXPECT_TRUE(bitArray[2]);
+    EXPECT_FALSE(bitArray[3]);
+    EXPECT_FALSE(bitArray[1]);
+
+    bitArray.set();
+    EXPECT_TRUE(bitArray[2]);
+    EXPECT_TRUE(bitArray[3]);
+    EXPECT_TRUE(bitArray[4]);
 
     bitArray.set();
     EXPECT_TRUE(bitArray[2]);
@@ -73,6 +93,13 @@ TEST(BitArrayChanges, Reset) {
 
     bitArray.reset();
     EXPECT_FALSE(bitArray[2]);
+    EXPECT_FALSE(bitArray[1]);
+    EXPECT_FALSE(bitArray[3]);
+
+    bitArray.reset();
+    EXPECT_FALSE(bitArray[2]);
+    EXPECT_FALSE(bitArray[1]);
+    EXPECT_FALSE(bitArray[3]);
 
     bitArray.set();
     EXPECT_TRUE(bitArray[2]);
@@ -90,6 +117,15 @@ TEST(BitArrayChanges, Resize){
     bitArray.resize(8);
     EXPECT_EQ(bitArray.size(), 8);
     EXPECT_EQ(bitArray.none(), true);
+
+    bitArray.resize(8);
+    EXPECT_EQ(bitArray.size(), 8);
+    EXPECT_EQ(bitArray.none(), true);
+
+    bitArray.resize(0);
+    EXPECT_EQ(bitArray.size(), 0);
+    EXPECT_EQ(bitArray.none(), true);
+    EXPECT_EQ(bitArray.empty(), true);
 
     bitArray.resize(0);
     EXPECT_EQ(bitArray.size(), 0);
@@ -167,6 +203,40 @@ TEST(BitArrayPrintResults, None){
     EXPECT_EQ(a.none(), false);
 }
 
+TEST(BitArrayOperatorsInFirstGroup, OperatorEq){
+    BitArray a(8);
+    BitArray b(8);
+    EXPECT_EQ(b.size(), 8);
+
+    a.set(0);
+    a.set(1);
+    b.set(2);
+    a = b;
+
+    EXPECT_TRUE(a[2]);
+    EXPECT_FALSE(a[0]);
+    EXPECT_FALSE(a[1]);
+    EXPECT_EQ(b.size(), 8);
+    EXPECT_EQ(a.size(), 8);
+
+    a = a;
+    EXPECT_TRUE(a[2]);
+    EXPECT_FALSE(a[0]);
+    EXPECT_FALSE(a[1]);
+
+
+    b.resize(5);
+    b.reset();
+    b.set(0);
+    b.set(1);
+    a = b;
+    EXPECT_TRUE(a[0]);
+    EXPECT_TRUE(a[1]);
+    EXPECT_FALSE(a[2]);
+    EXPECT_EQ(b.size(), 5);
+    EXPECT_EQ(a.size(), 5);
+
+}
 TEST(BitArrayOperatorsInFirstGroup, OperatorEqXOR){
     BitArray a(8);
     BitArray b(8);
@@ -178,6 +248,11 @@ TEST(BitArrayOperatorsInFirstGroup, OperatorEqXOR){
     a ^= b;
 
     EXPECT_TRUE(a[0]);
+    EXPECT_FALSE(a[1]);
+    EXPECT_FALSE(a[2]);
+
+    a^= a;
+    EXPECT_FALSE(a[0]);
     EXPECT_FALSE(a[1]);
     EXPECT_FALSE(a[2]);
 
@@ -213,6 +288,10 @@ TEST(BitArrayOperatorsInFirstGroup, OperatorEqAND){
     b.resize(4);
     b &= c;
     EXPECT_EQ(b.to_string(), "0000");
+
+    b &= c;
+    EXPECT_EQ(b.to_string(), "0000");
+
 }
 TEST(BitArrayOperatorsInFirstGroup, OperatorEqOR){
     BitArray a(8);
@@ -231,6 +310,9 @@ TEST(BitArrayOperatorsInFirstGroup, OperatorEqOR){
     EXPECT_EQ(c.to_string(), "00001101");
 
     b |= c;
+    EXPECT_EQ(b.to_string(), "00001111");
+
+    b |= b;
     EXPECT_EQ(b.to_string(), "00001111");
 }
 
@@ -274,11 +356,24 @@ TEST(BitArrayOperatorsInThirdGroup, OperatorBoolEq){
 
     EXPECT_EQ(a.to_string(), b.to_string());
     EXPECT_EQ(a == b, true);
+    EXPECT_EQ(b == a, true);
+    EXPECT_EQ(a == a, true);
+    EXPECT_EQ(a.size(), b.size());
+}
+TEST(BitArrayOperatorsInThirdGroup, OperatorBoolNotEq){
+    unsigned long value = 0b00000000000000000000000000001101;
+    BitArray a(4, value);
+    BitArray b = a;
+
+    EXPECT_EQ(a.to_string(), b.to_string());
+    EXPECT_EQ(a != a, false);
     EXPECT_EQ(a != b, false);
+    EXPECT_EQ(b != a, false);
     EXPECT_EQ(a.size(), b.size());
 
     BitArray c(4);
     EXPECT_EQ(c != b, true);
+    EXPECT_EQ(b != c, true);
 }
 TEST(BitArrayOperatorsInThirdGroup, OperatorTilda){
     unsigned long value = 0b00000000000000000000000000001101;
@@ -293,6 +388,9 @@ TEST(BitArrayOperatorsInThirdGroup, OperatorTilda){
     EXPECT_EQ(b.to_string(), "0010");
     EXPECT_EQ(a != b, true);
     EXPECT_EQ(a == b, false);
+
+    b = ~b;
+    EXPECT_EQ(b.to_string(), "1101");
 }
 
 TEST(BitArrayAnotherBoolFunctions, Clear){

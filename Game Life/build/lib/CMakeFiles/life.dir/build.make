@@ -83,17 +83,49 @@ lib/CMakeFiles/life.dir/Life.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/life.dir/Life.cpp.s"
 	cd "/home/babrakadabra/second_course/CPP_tasks/Game Life/build/lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/babrakadabra/second_course/CPP_tasks/Game Life/lib/Life.cpp" -o CMakeFiles/life.dir/Life.cpp.s
 
+lib/CMakeFiles/life.dir/GamePars.cpp.o: lib/CMakeFiles/life.dir/flags.make
+lib/CMakeFiles/life.dir/GamePars.cpp.o: /home/babrakadabra/second_course/CPP_tasks/Game\ Life/lib/GamePars.cpp
+lib/CMakeFiles/life.dir/GamePars.cpp.o: lib/CMakeFiles/life.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/babrakadabra/second_course/CPP_tasks/Game Life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/life.dir/GamePars.cpp.o"
+	cd "/home/babrakadabra/second_course/CPP_tasks/Game Life/build/lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/life.dir/GamePars.cpp.o -MF CMakeFiles/life.dir/GamePars.cpp.o.d -o CMakeFiles/life.dir/GamePars.cpp.o -c "/home/babrakadabra/second_course/CPP_tasks/Game Life/lib/GamePars.cpp"
+
+lib/CMakeFiles/life.dir/GamePars.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/life.dir/GamePars.cpp.i"
+	cd "/home/babrakadabra/second_course/CPP_tasks/Game Life/build/lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/babrakadabra/second_course/CPP_tasks/Game Life/lib/GamePars.cpp" > CMakeFiles/life.dir/GamePars.cpp.i
+
+lib/CMakeFiles/life.dir/GamePars.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/life.dir/GamePars.cpp.s"
+	cd "/home/babrakadabra/second_course/CPP_tasks/Game Life/build/lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/babrakadabra/second_course/CPP_tasks/Game Life/lib/GamePars.cpp" -o CMakeFiles/life.dir/GamePars.cpp.s
+
+lib/CMakeFiles/life.dir/GameProcces.cpp.o: lib/CMakeFiles/life.dir/flags.make
+lib/CMakeFiles/life.dir/GameProcces.cpp.o: /home/babrakadabra/second_course/CPP_tasks/Game\ Life/lib/GameProcces.cpp
+lib/CMakeFiles/life.dir/GameProcces.cpp.o: lib/CMakeFiles/life.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/babrakadabra/second_course/CPP_tasks/Game Life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/CMakeFiles/life.dir/GameProcces.cpp.o"
+	cd "/home/babrakadabra/second_course/CPP_tasks/Game Life/build/lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/life.dir/GameProcces.cpp.o -MF CMakeFiles/life.dir/GameProcces.cpp.o.d -o CMakeFiles/life.dir/GameProcces.cpp.o -c "/home/babrakadabra/second_course/CPP_tasks/Game Life/lib/GameProcces.cpp"
+
+lib/CMakeFiles/life.dir/GameProcces.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/life.dir/GameProcces.cpp.i"
+	cd "/home/babrakadabra/second_course/CPP_tasks/Game Life/build/lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/babrakadabra/second_course/CPP_tasks/Game Life/lib/GameProcces.cpp" > CMakeFiles/life.dir/GameProcces.cpp.i
+
+lib/CMakeFiles/life.dir/GameProcces.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/life.dir/GameProcces.cpp.s"
+	cd "/home/babrakadabra/second_course/CPP_tasks/Game Life/build/lib" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/babrakadabra/second_course/CPP_tasks/Game Life/lib/GameProcces.cpp" -o CMakeFiles/life.dir/GameProcces.cpp.s
+
 # Object files for target life
 life_OBJECTS = \
-"CMakeFiles/life.dir/Life.cpp.o"
+"CMakeFiles/life.dir/Life.cpp.o" \
+"CMakeFiles/life.dir/GamePars.cpp.o" \
+"CMakeFiles/life.dir/GameProcces.cpp.o"
 
 # External object files for target life
 life_EXTERNAL_OBJECTS =
 
 lib/liblife.a: lib/CMakeFiles/life.dir/Life.cpp.o
+lib/liblife.a: lib/CMakeFiles/life.dir/GamePars.cpp.o
+lib/liblife.a: lib/CMakeFiles/life.dir/GameProcces.cpp.o
 lib/liblife.a: lib/CMakeFiles/life.dir/build.make
 lib/liblife.a: lib/CMakeFiles/life.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/babrakadabra/second_course/CPP_tasks/Game Life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblife.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/babrakadabra/second_course/CPP_tasks/Game Life/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library liblife.a"
 	cd "/home/babrakadabra/second_course/CPP_tasks/Game Life/build/lib" && $(CMAKE_COMMAND) -P CMakeFiles/life.dir/cmake_clean_target.cmake
 	cd "/home/babrakadabra/second_course/CPP_tasks/Game Life/build/lib" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/life.dir/link.txt --verbose=$(VERBOSE)
 

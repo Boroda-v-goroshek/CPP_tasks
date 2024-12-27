@@ -1,0 +1,26 @@
+BitArrayConstructors.Constructor 1 0.00529654
+BitArrayConstructors.Copy 1 0.00692173
+BitArrayChanges.Swap 1 0.0057371
+BitArrayChanges.Set 1 0.00477842
+BitArrayChanges.Reset 1 0.003925
+BitArrayChanges.Resize 1 0.00602654
+BitArrayChanges.Pushback 1 0.00500607
+BitArrayPrintResults.ToString 1 0.00430667
+BitArrayPrintResults.Get 1 0.00723721
+BitArrayPrintResults.Any 1 0.00404346
+BitArrayPrintResults.None 1 0.00490991
+BitArrayOperatorsInFirstGroup.OperatorEq 1 0.00452091
+BitArrayOperatorsInFirstGroup.OperatorEqXOR 1 0.00571131
+BitArrayOperatorsInFirstGroup.OperatorEqAND 1 0.00447523
+BitArrayOperatorsInFirstGroup.OperatorEqOR 1 0.00581418
+BitArrayOperatorsInSecondGroup.OperatorToLeft 1 0.0041225
+BitArrayOperatorsInSecondGroup.OperatorToRight 1 0.00463462
+BitArrayOperatorsInThirdGroup.OperatorBoolEq 1 0.00373203
+BitArrayOperatorsInThirdGroup.OperatorBoolNotEq 1 0.00486002
+BitArrayOperatorsInThirdGroup.OperatorTilda 1 0.00545733
+BitArrayAnotherBoolFunctions.Clear 1 0.00464465
+BitArrayAnotherBoolFunctions.IsEmpty 1 0.00554457
+BitArrayOperatorsInFourthGroup.OperatorXOR 1 0.00589295
+BitArrayOperatorsInFourthGroup.OperatorAND 1 0.00463446
+BitArrayOperatorsInFourthGroup.OperatorOR 1 0.00411231
+---

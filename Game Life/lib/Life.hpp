@@ -41,18 +41,24 @@ public:
     // Изменение кол-ва соседей для клеток вокруг заданной
     void changes(int x, int y, int sign);
 
-    void printN();
+    vector<vector<int>> GetN();
 
     void printRules();
 
     Field(int height, int width, set<int> b, set<int> s, vector<int> coordinates, string name);
 
-    ~Field();
+
 
     void draw();
 
     void update();
 
     void dump(string filename);
+
+    vector<int> getSize();
+    string getName();
+    vector<vector<Cell>> getField();
+    vector<set<int>> getRules();
+
 
 };

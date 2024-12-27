@@ -6,12 +6,12 @@ class GenericCreature {
 public:
     // Метод для отображения информации о существе
     void info() const {
-        std::cout << "Это общее существо." << std::endl;
+        std::cout << "Я существо." << std::endl;
     }
 };
 
 // Класс для морских существ, наследует от GenericCreature
-class OceanCreature : public GenericCreature {
+class OceanCreature : private GenericCreature {
 public:
     void swim() const {
         std::cout << "Я умею плавать!" << std::endl;
@@ -24,8 +24,9 @@ public:
 };
 
 // Класс для амфибий, наследует от OceanCreature
-class Amphibious : public OceanCreature {
+class Amphibious : private OceanCreature {
 public:
+    using OceanCreature::swim;
     void walk() const {
         std::cout << "Я умею ходить!" << std::endl;
     }
@@ -37,7 +38,7 @@ public:
 };
 
 // Класс для наземных существ, наследует от GenericCreature
-class TerrestrialCreature : public GenericCreature {
+class TerrestrialCreature : private GenericCreature {
 public:
     void walk() const {
         std::cout << "Я умею ходить!" << std::endl;
@@ -50,8 +51,9 @@ public:
 };
 
 // Класс для птиц, наследует от TerrestrialCreature
-class Bird : public TerrestrialCreature {
+class Bird : private TerrestrialCreature {
 public:
+    using TerrestrialCreature::walk;
     void fly() const {
         std::cout << "Я умею летать!" << std::endl;
     }
@@ -63,8 +65,10 @@ public:
 };
 
 // Класс для водоплавающих птиц, наследует от Bird
-class Waterfowl : public Bird {
+class Waterfowl : private Bird {
 public:
+    using Bird::fly;
+    using Bird::walk;
     void swim() const {
         std::cout << "Я умею плавать!" << std::endl;
     }

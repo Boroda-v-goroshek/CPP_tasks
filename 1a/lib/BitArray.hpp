@@ -9,10 +9,11 @@ int min(int a, int b);
 int max(int a, int b);
 
 class BitArray{
-    unsigned char* bit_array;
+unsigned char* bit_array;
     int len;
-
 public:
+
+
     ~BitArray();
 
     //Конструирует массив, хранящий заданное количество бит.

@@ -1,2 +1,2 @@
-/usr/bin/ar qc liblife.a CMakeFiles/life.dir/Life.cpp.o
+/usr/bin/ar qc liblife.a CMakeFiles/life.dir/Life.cpp.o CMakeFiles/life.dir/GamePars.cpp.o CMakeFiles/life.dir/GameProcces.cpp.o
 /usr/bin/ranlib liblife.a

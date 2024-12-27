@@ -1,56 +1,30 @@
+#ifndef READER_H
+#define READER_H
+
 #include <iostream>
-#include <string>
 #include <vector>
-#include <sstream>
-#include <cstring>
+#include <string>
+#include <fstream>
 
 using namespace std;
 
-std::vector<std::string> splitString(const std::string& str) {
-    std::vector<std::string> words; // Вектор для хранения слов
-    std::stringstream ss(str);      // Создаем поток из строки
-    std::string word;               // Переменная для хранения текущего слова
+class Reader {
+public:
+    virtual void read(ifstream& conf) = 0; // Чисто виртуальная функция
+    virtual ~Reader() {} // Виртуальный деструктор
+};
 
-    // Разбиваем строку на слова, используя пробел в качестве разделителя
-    while (ss >> word) {
-        words.push_back(word);       // Добавляем каждое слово в вектор
-    }
+class Conf_reader : public Reader {
+    string command;
+    vector<string> args;
 
-    return words;                   // Возвращаем вектор с словами
-}
+public:
+    void read(ifstream& conf) override; // Нормальная переопределенная функция
+};
 
-int main(){
-    std::cout << "Введите строку: " << endl;
-    std::string command;
-    getline(cin, command);
+class WAV_reader : public Reader {
+public:
+    void read(ifstream& conf) override; // Переопределяем метод
+};
 
-    vector words = splitString(command);
-    cout << words.size() << ' ' << words[1] << endl;
-
-   
-
-    return 0;
-}
-
-/*
-std::cout << "Введите строку: " << endl;
-    std::string command;
-    std::cin >> command;while (ss >> word) {
-        words.push_back(word);       // Добавляем каждое слово в вектор
-    }
-
-
-    int n = 1000;
-    char* str = new char[n];
-    for (int i = 0; i < command.length(); i++){
-        str[i] = command[i];
-    }
-    str[command.length()] = '\0';
-    
-    // Разделители
-    char sep [10] = " ,.!;";
-    char* token = strtok(str, sep);
-    while (token != nullptr){
-        std::cout << token << std::endl;
-        token = strtok(nullptr, sep);
-    }*/
+#endif // READER_H
