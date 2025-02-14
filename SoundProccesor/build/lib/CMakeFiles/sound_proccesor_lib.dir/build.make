@@ -97,19 +97,35 @@ lib/CMakeFiles/sound_proccesor_lib.dir/sound.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sound_proccesor_lib.dir/sound.cpp.s"
 	cd /home/babrakadabra/second_course/CPP_tasks/SoundProccesor/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/babrakadabra/second_course/CPP_tasks/SoundProccesor/lib/sound.cpp -o CMakeFiles/sound_proccesor_lib.dir/sound.cpp.s
 
+lib/CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.o: lib/CMakeFiles/sound_proccesor_lib.dir/flags.make
+lib/CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.o: /home/babrakadabra/second_course/CPP_tasks/SoundProccesor/lib/Pars.cpp
+lib/CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.o: lib/CMakeFiles/sound_proccesor_lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/babrakadabra/second_course/CPP_tasks/SoundProccesor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.o"
+	cd /home/babrakadabra/second_course/CPP_tasks/SoundProccesor/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.o -MF CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.o.d -o CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.o -c /home/babrakadabra/second_course/CPP_tasks/SoundProccesor/lib/Pars.cpp
+
+lib/CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.i"
+	cd /home/babrakadabra/second_course/CPP_tasks/SoundProccesor/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/babrakadabra/second_course/CPP_tasks/SoundProccesor/lib/Pars.cpp > CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.i
+
+lib/CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.s"
+	cd /home/babrakadabra/second_course/CPP_tasks/SoundProccesor/build/lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/babrakadabra/second_course/CPP_tasks/SoundProccesor/lib/Pars.cpp -o CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.s
+
 # Object files for target sound_proccesor_lib
 sound_proccesor_lib_OBJECTS = \
 "CMakeFiles/sound_proccesor_lib.dir/reader.cpp.o" \
-"CMakeFiles/sound_proccesor_lib.dir/sound.cpp.o"
+"CMakeFiles/sound_proccesor_lib.dir/sound.cpp.o" \
+"CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.o"
 
 # External object files for target sound_proccesor_lib
 sound_proccesor_lib_EXTERNAL_OBJECTS =
 
 lib/libsound_proccesor_lib.a: lib/CMakeFiles/sound_proccesor_lib.dir/reader.cpp.o
 lib/libsound_proccesor_lib.a: lib/CMakeFiles/sound_proccesor_lib.dir/sound.cpp.o
+lib/libsound_proccesor_lib.a: lib/CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.o
 lib/libsound_proccesor_lib.a: lib/CMakeFiles/sound_proccesor_lib.dir/build.make
 lib/libsound_proccesor_lib.a: lib/CMakeFiles/sound_proccesor_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/babrakadabra/second_course/CPP_tasks/SoundProccesor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libsound_proccesor_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/babrakadabra/second_course/CPP_tasks/SoundProccesor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libsound_proccesor_lib.a"
 	cd /home/babrakadabra/second_course/CPP_tasks/SoundProccesor/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/sound_proccesor_lib.dir/cmake_clean_target.cmake
 	cd /home/babrakadabra/second_course/CPP_tasks/SoundProccesor/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sound_proccesor_lib.dir/link.txt --verbose=$(VERBOSE)
 

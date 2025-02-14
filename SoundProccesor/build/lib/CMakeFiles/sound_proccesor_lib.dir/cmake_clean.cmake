@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.o"
+  "CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.o.d"
   "CMakeFiles/sound_proccesor_lib.dir/reader.cpp.o"
   "CMakeFiles/sound_proccesor_lib.dir/reader.cpp.o.d"
   "CMakeFiles/sound_proccesor_lib.dir/sound.cpp.o"

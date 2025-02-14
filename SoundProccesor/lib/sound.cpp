@@ -6,6 +6,7 @@ int Mix::min(int a, int b){
     return a;
 }
 
+// 
 void Mix::change(WAV_reader& data, vector<string> args){
     // Получаем индекс начала
     // Подготавливаем данные

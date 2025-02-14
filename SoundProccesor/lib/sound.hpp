@@ -13,7 +13,6 @@ public:
     void change(WAV_reader& data, vector<string> args);
 };
 
-
 class Mute : public Convert{
 public:
     void change(WAV_reader& data, vector<string> args);

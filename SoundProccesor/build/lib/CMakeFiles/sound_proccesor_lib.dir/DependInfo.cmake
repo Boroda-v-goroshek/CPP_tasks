@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/babrakadabra/second_course/CPP_tasks/SoundProccesor/lib/Pars.cpp" "lib/CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.o" "gcc" "lib/CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.o.d"
   "/home/babrakadabra/second_course/CPP_tasks/SoundProccesor/lib/reader.cpp" "lib/CMakeFiles/sound_proccesor_lib.dir/reader.cpp.o" "gcc" "lib/CMakeFiles/sound_proccesor_lib.dir/reader.cpp.o.d"
   "/home/babrakadabra/second_course/CPP_tasks/SoundProccesor/lib/sound.cpp" "lib/CMakeFiles/sound_proccesor_lib.dir/sound.cpp.o" "gcc" "lib/CMakeFiles/sound_proccesor_lib.dir/sound.cpp.o.d"
   )

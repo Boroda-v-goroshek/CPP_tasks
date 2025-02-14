@@ -1,2 +1,2 @@
-/usr/bin/ar qc libsound_proccesor_lib.a CMakeFiles/sound_proccesor_lib.dir/reader.cpp.o CMakeFiles/sound_proccesor_lib.dir/sound.cpp.o
+/usr/bin/ar qc libsound_proccesor_lib.a CMakeFiles/sound_proccesor_lib.dir/reader.cpp.o CMakeFiles/sound_proccesor_lib.dir/sound.cpp.o CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.o
 /usr/bin/ranlib libsound_proccesor_lib.a

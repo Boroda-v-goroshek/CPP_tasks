@@ -26,7 +26,7 @@ public:
 };
 
 // Класс для амфибий, наследует от OceanCreature
-class Amphibious : virtual public OceanCreature {
+class Amphibious : virtual public OceanCreature{
 public:
     void walk() const {
         std::cout << "Я умею ходить!" << std::endl;
@@ -39,14 +39,16 @@ public:
 };
 
 // Класс для наземных существ, наследует от GenericCreature
-class TerrestrialCreature : public GenericCreature {
+class TerrestrialCreature : public OceanCreature {
 public:
+
+    void swim() const = delete;
+
     void walk() const {
         std::cout << "Я умею ходить!" << std::endl;
     }
 
     void info() const {
-        GenericCreature::info();
         std::cout << "Я наземное существо." << std::endl;
     }
 };
@@ -73,7 +75,7 @@ public:
 
     void info() const {
         Bird::info();
-        OceanCreature::info();
+        //OceanCreature::info();
 
         std::cout << "Я водоплавающая птица." << std::endl;
     }

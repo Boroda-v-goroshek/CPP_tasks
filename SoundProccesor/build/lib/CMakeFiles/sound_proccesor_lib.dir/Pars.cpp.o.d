@@ -1,5 +1,5 @@
-CMakeFiles/sound_proccesor.dir/main.cpp.o: \
- /home/babrakadabra/second_course/CPP_tasks/SoundProccesor/main.cpp \
+lib/CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.o: \
+ /home/babrakadabra/second_course/CPP_tasks/SoundProccesor/lib/Pars.cpp \
  /usr/include/stdc-predef.h \
  /home/babrakadabra/second_course/CPP_tasks/SoundProccesor/lib/Pars.hpp \
  /home/babrakadabra/second_course/CPP_tasks/SoundProccesor/./lib/sound.hpp \

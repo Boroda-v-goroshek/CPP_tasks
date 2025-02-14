@@ -130,6 +130,30 @@ sound_proccesor_lib/fast:
 	cd /home/babrakadabra/second_course/CPP_tasks/SoundProccesor/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/sound_proccesor_lib.dir/build.make lib/CMakeFiles/sound_proccesor_lib.dir/build
 .PHONY : sound_proccesor_lib/fast
 
+Pars.o: Pars.cpp.o
+.PHONY : Pars.o
+
+# target to build an object file
+Pars.cpp.o:
+	cd /home/babrakadabra/second_course/CPP_tasks/SoundProccesor/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/sound_proccesor_lib.dir/build.make lib/CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.o
+.PHONY : Pars.cpp.o
+
+Pars.i: Pars.cpp.i
+.PHONY : Pars.i
+
+# target to preprocess a source file
+Pars.cpp.i:
+	cd /home/babrakadabra/second_course/CPP_tasks/SoundProccesor/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/sound_proccesor_lib.dir/build.make lib/CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.i
+.PHONY : Pars.cpp.i
+
+Pars.s: Pars.cpp.s
+.PHONY : Pars.s
+
+# target to generate assembly for a file
+Pars.cpp.s:
+	cd /home/babrakadabra/second_course/CPP_tasks/SoundProccesor/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/sound_proccesor_lib.dir/build.make lib/CMakeFiles/sound_proccesor_lib.dir/Pars.cpp.s
+.PHONY : Pars.cpp.s
+
 reader.o: reader.cpp.o
 .PHONY : reader.o
 
@@ -187,6 +211,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... sound_proccesor_lib"
+	@echo "... Pars.o"
+	@echo "... Pars.i"
+	@echo "... Pars.s"
 	@echo "... reader.o"
 	@echo "... reader.i"
 	@echo "... reader.s"
